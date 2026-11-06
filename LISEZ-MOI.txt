@@ -1,0 +1,31 @@
+STUDIO — mettre l'appli en ligne (gratuit, 5 minutes, à faire une seule fois)
+===========================================================================
+
+Pourquoi ? Pour s'installer comme une appli sur iPhone, iPad, Android, Mac et Windows,
+Studio doit être ouvert une première fois depuis une adresse https://.
+Ensuite il marche SANS internet sur chaque appareil.
+
+Méthode recommandée : GitHub Pages (gratuit)
+1. Créez un compte sur https://github.com (gratuit).
+2. Cliquez sur « + » en haut à droite → « New repository ».
+   Nom : studio   ·   cochez « Public »   ·   « Create repository ».
+3. Cliquez sur « uploading an existing file », glissez TOUS les fichiers de ce dossier
+   (index.html, sw.js, worklets.js, manifest.webmanifest, les icônes .png), puis « Commit changes ».
+4. Onglet « Settings » → « Pages » → Source : « Deploy from a branch »,
+   Branch : « main », dossier « / (root) » → Save.
+5. Après 1 à 2 minutes, votre appli est à l'adresse :
+   https://VOTRE-PSEUDO.github.io/studio/
+
+Installer sur chaque appareil (ouvrez l'adresse ci-dessus) :
+- iPhone / iPad : Safari → bouton Partager → « Sur l'écran d'accueil ».
+- Android : Chrome → menu ⋮ → « Installer l'application ».
+- Windows : Edge ou Chrome → icône « Installer » dans la barre d'adresse.
+- Mac : Safari → Fichier → « Ajouter au Dock » (ou Chrome → icône Installer).
+Dans l'appli : ☰ Fichier → « Installer l'appli » donne aussi ces instructions.
+
+Vos projets
+- Sauvegarde automatique dans chaque appareil (bouton 📂 Projets).
+- Pour passer un projet d'un appareil à un autre : ☰ Fichier → « Exporter le projet (.studio) »,
+  envoyez-vous le fichier, puis « Importer un projet » sur l'autre appareil.
+
+Mettre à jour l'appli plus tard : ré-uploadez les nouveaux fichiers dans le même dépôt GitHub.
